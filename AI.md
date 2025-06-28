@@ -1,6 +1,9 @@
-# AI Assistant Context for Xcode Template Projects
+# AI Assistant Context for Ikigai
 
-This document contains important context and requirements for AI assistants working with projects created from this Xcode template.
+This document contains important context and requirements for AI assistants working with the Ikigai multi-platform SwiftUI application.
+
+**Current Path**: `/Users/vince/Dev/Studio45/Ikigai/`
+**Repository**: https://github.com/45BitStudios/Ikigai
 
 ## Project Requirements Overview
 
@@ -25,9 +28,9 @@ All code must be compatible with:
 
 Use `#if os()` compiler directives when platform-specific code is needed.
 
-### Required Project Targets
-Every project includes these targets:
-1. **Main App** - Primary application
+### Ikigai Project Targets
+The Ikigai project includes these targets:
+1. **IkigaiApp** - Primary application
 2. **App Clips** - Lightweight app experiences
 3. **Action Extension** - System-wide custom actions
 4. **Share Extension** - Content sharing from other apps

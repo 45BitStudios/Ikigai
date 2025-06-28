@@ -1,6 +1,6 @@
-# Xcode Project Template
+# Ikigai - Comprehensive SwiftUI Multi-Platform Template
 
-This template provides a comprehensive setup for creating Xcode projects with all necessary targets and configurations.
+A comprehensive SwiftUI template for creating iOS, macOS, watchOS, tvOS, and visionOS applications with advanced routing, localization, and modern Apple framework integration.
 
 ## Requirements
 
@@ -11,8 +11,10 @@ This template provides a comprehensive setup for creating Xcode projects with al
 
 ## Project Structure
 
-This template creates projects with the following targets:
-- **Main App** - Primary application target
+**Current Path**: `/Users/vince/Dev/Studio45/Ikigai/`
+
+Ikigai includes the following targets:
+- **IkigaiApp** - Primary application target
 - **App Clips** - Lightweight app experiences
 - **Action Extension** - Custom actions in system contexts
 - **Share Extension** - Sharing content from other apps
@@ -355,26 +357,25 @@ This template uses Swift Package Manager for modular, reusable code organization
 ### File Structure
 
 ```
-YourProject/
+Ikigai/
 ├── Package.swift              # Swift Package Manager manifest
 ├── Sources/
-│   ├── App/                   # Main app source
-│   ├── AppClips/              # App Clips source
-│   ├── Extensions/            # All extension sources
-│   │   ├── ActionExtension/
-│   │   ├── ShareExtension/
-│   │   ├── NotificationExtension/
-│   │   ├── MessageExtension/
-│   │   ├── SpotlightExtension/
-│   │   └── WidgetExtension/
-│   ├── WatchApp/              # Watch app source
-│   ├── WatchExtension/        # Watch extension source
-├── Sources/                   # Swift Package Manager source code only
-│   ├── Core/                  # Core Swift package (business logic)
-│   ├── UI/                    # UI Swift package (SwiftUI components)
-│   ├── CoreTests/             # Core package tests
-│   └── UITests/               # UI package tests
-├── XcodeTemplate/             # All Xcode project files (rename per project)
+│   ├── IkigaiCore/            # Core Swift package (business logic, router, networking)
+│   ├── IkigaiUI/              # UI Swift package (SwiftUI components)
+│   ├── IkigaiAI/              # AI and ML integrations
+│   └── IkigaiMacros/          # Swift macros and code generation
+├── IkigaiApp/                 # Main iOS/macOS app target
+├── AppClips/                  # App Clips source
+├── ActionExtension/           # Action extension source
+├── ShareExtension/            # Share extension source
+├── NotificationExtension/     # Notification content extension
+├── NotificationServiceExtension/ # Notification service extension
+├── MessageExtension/          # Message extension source
+├── SpotlightExtension/        # Spotlight extension source
+├── WidgetExtension/           # Widget extension source
+├── WatchApp/                  # Watch app source
+├── Resources/                 # Assets, localizations, Info.plist strings
+├── Tests/                     # Test targets for all packages
 │   ├── App/                   # Main app source
 │   ├── AppClips/              # App Clips source
 │   ├── ActionExtension/       # Action extension source
@@ -458,11 +459,49 @@ xcodebuild archive -scheme YourProjectName -archivePath ./build/YourProjectName.
 2. **Build errors**: Ensure all deployment targets match your requirements
 3. **Signing issues**: Configure your development team in `project.yml`
 
+## Advanced Router System
+
+Ikigai includes a comprehensive SwiftUI Router system with:
+- **Type-safe routing** with compile-time validation
+- **NavigationPath integration** for iOS 16+ stack management
+- **Multi-modal support** (sheets, full screen, alerts)
+- **Tab navigation** with cross-tab routing capabilities
+- **Deep linking** with URL pattern matching
+- **Environment injection** following SwiftUI patterns
+- **Multi-platform compatibility** (iOS/macOS/watchOS/tvOS/visionOS)
+- **Custom transitions** and animations
+
+### Router Usage Example
+```swift
+import IkigaiCore
+
+struct ContentView: View {
+    @State private var router = Router<AppRoute>.withStandardMappings()
+    
+    var body: some View {
+        RouterView(router: router, routes: routeToView) {
+            HomeView()
+        }
+    }
+    
+    @ViewBuilder
+    private func routeToView(_ route: AppRoute) -> AnyView {
+        switch route {
+        case .home: AnyView(HomeView())
+        case .settings: AnyView(SettingsView())
+        case .profile(let userID): AnyView(ProfileView(userID: userID))
+        // ... other routes
+        }
+    }
+}
+```
+
 ## Next Steps
 
 After project creation:
 1. Configure your development team and signing
-2. Set up your app's core functionality
+2. Set up your app's core functionality using the router system
 3. Add app-specific assets and resources
 4. Configure any additional dependencies
 5. Set up CI/CD if needed
+6. Explore the advanced router features for navigation

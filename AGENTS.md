@@ -1,6 +1,6 @@
-# Claude Memory for Ikigai Project
+# AI Agents Memory for Ikigai Project
 
-This file contains important context and memories for Claude when working on the Ikigai multi-platform SwiftUI application. This helps maintain consistency and understanding across sessions.
+This file contains important context and memories for AI agents (Claude, Gemini, GPT, etc.) when working on the Ikigai multi-platform SwiftUI application. This helps maintain consistency and understanding across sessions and different AI assistants.
 
 **Current Path**: `/Users/vince/Dev/Studio45/Ikigai/`
 **Repository**: https://github.com/45BitStudios/Ikigai
