@@ -1,0 +1,18 @@
+/* Versions localisées des clés Info.plist */
+
+CFBundleDisplayName = "Votre Application";
+CFBundleName = "Votre Application";
+NSMicrophoneUsageDescription = "Cette application nécessite l'accès au microphone pour les fonctions vocales";
+NSSpeechRecognitionUsageDescription = "Cette application utilise la reconnaissance vocale pour convertir la parole en texte";
+NSCameraUsageDescription = "Cette application utilise l'appareil photo pour prendre des photos";
+NSPhotoLibraryUsageDescription = "Cette application accède à votre photothèque pour sélectionner des images";
+NSLocationWhenInUseUsageDescription = "Cette application utilise la localisation pour fournir des fonctionnalités basées sur la localisation";
+NSContactsUsageDescription = "Cette application accède à vos contacts pour vous aider à vous connecter avec des amis";
+NSCalendarsUsageDescription = "Cette application accède à votre calendrier pour programmer des événements";
+NSRemindersUsageDescription = "Cette application accède à vos rappels pour aider à gérer les tâches";
+NSHealthShareUsageDescription = "Cette application accède aux données de santé pour suivre votre bien-être";
+NSHealthUpdateUsageDescription = "Cette application met à jour les données de santé pour suivre votre bien-être";
+NSMotionUsageDescription = "Cette application utilise les données de mouvement pour suivre votre activité";
+NSFaceIDUsageDescription = "Cette application utilise Face ID pour une authentification sécurisée";
+NSBluetoothAlwaysUsageDescription = "Cette application utilise Bluetooth pour se connecter aux appareils à proximité";
+NSLocalNetworkUsageDescription = "Cette application utilise le réseau local pour se connecter aux appareils de votre réseau";

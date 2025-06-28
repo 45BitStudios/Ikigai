@@ -1,0 +1,302 @@
+name: Ikigai
+
+options:
+  bundleIdPrefix: com.45bitstudios
+  deploymentTarget:
+    iOS: 26.0
+    macOS: 26.0
+    watchOS: 26.0
+    tvOS: 26.0
+    visionOS: 26.0
+  defaultConfig: Debug
+
+packages:
+  IkigaiApi:
+    path: .
+    # To switch to remote package, replace above with:
+    # url: https://github.com/vinced45/xcode-template.git
+    # revision: cfbf00e
+
+configs:
+  Debug: debug
+  Release: release
+
+settings:
+  base:
+    BUNDLE_ID_PREFIX: com.45bitstudios
+    BUNDLE_NAME: ikigaiapp2
+    SWIFT_VERSION: 6.2
+    MARKETING_VERSION: 1.0.0
+    CURRENT_PROJECT_VERSION: 1
+    DEVELOPMENT_TEAM: SP7UUHBXPL
+    ENABLE_PREVIEWS: YES
+
+targets:
+  # Main App Target
+  IkigaiApp:
+    type: application
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: IkigaiApp
+    dependencies:
+      - package: IkigaiApi
+        product: IkigaiCore
+      - package: IkigaiApi
+        product: IkigaiUI
+      - package: IkigaiApi
+        product: IkigaiAI
+      - package: IkigaiApi
+        product: IkigaiMacros
+      - target: ActionExtension
+        embed: true
+      - target: ShareExtension
+        embed: true
+      - target: NotificationExtension
+        embed: true
+      - target: NotificationServiceExtension
+        embed: true
+      - target: MessageExtension
+        embed: true
+      - target: SpotlightExtension
+        embed: true
+      - target: WidgetExtension
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME)
+        TARGETED_DEVICE_FAMILY: 1,2,3,4,7
+        SWIFT_EMIT_LOC_STRINGS: YES
+        ENABLE_PREVIEWS: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator macosx appletvsimulator appletvos xros xrsimulator"
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        CODE_SIGN_ENTITLEMENTS: IkigaiApp/IkigaiApp.entitlements
+      configs:
+        Debug:
+          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES[sdk=iphoneos*]: $(inherited)
+          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES[sdk=iphonesimulator*]: $(inherited)
+        Release:
+          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES[sdk=iphoneos*]: $(inherited)
+          ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES[sdk=iphonesimulator*]: $(inherited)
+
+  # App Clips Target
+  AppClips:
+    type: application
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: AppClips
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).Clip
+      TARGETED_DEVICE_FAMILY: 1,2
+      SWIFT_EMIT_LOC_STRINGS: YES
+
+  # Action Extension
+  ActionExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: ActionExtension
+    dependencies:
+      - package: IkigaiApi
+        product: IkigaiCore
+    settings:
+      base:
+        ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+        PRODUCT_MODULE_NAME: ActionExtension
+        TARGETED_DEVICE_FAMILY: 1,2,6
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator macosx"
+      configs:
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).ActionExtension
+        Release:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).ActionExtension
+
+  # Share Extension
+  ShareExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: ShareExtension
+    dependencies:
+      - package: IkigaiApi
+        product: IkigaiCore
+    settings:
+      base:
+        ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+        PRODUCT_MODULE_NAME: ShareExtension
+        TARGETED_DEVICE_FAMILY: 1,2,6
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator macosx"
+      configs:
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).ShareExtension
+        Release:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).ShareExtension
+
+  # Notification Extension
+  NotificationExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: NotificationExtension
+    dependencies:
+      - package: IkigaiApi
+        product: IkigaiCore
+    settings:
+      base:
+        ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+        PRODUCT_MODULE_NAME: NotificationExtension
+        TARGETED_DEVICE_FAMILY: 1,2,6
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator macosx"
+      configs:
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).NotificationExtension
+        Release:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).NotificationExtension
+
+  # Notification Service Extension
+  NotificationServiceExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: NotificationServiceExtension
+    settings:
+      base:
+        ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+        PRODUCT_MODULE_NAME: NotificationServiceExtension
+        TARGETED_DEVICE_FAMILY: 1,2,6
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator macosx"
+        CODE_SIGN_ENTITLEMENTS: NotificationServiceExtension/NotificationServiceExtension.entitlements
+      configs:
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).NotificationServiceExtension
+        Release:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).NotificationServiceExtension
+
+  # Message Extension
+  MessageExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: MessageExtension
+    settings:
+      base:
+        ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+        PRODUCT_MODULE_NAME: MessageExtension
+        TARGETED_DEVICE_FAMILY: 1,2
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+      configs:
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).MessageExtension
+        Release:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).MessageExtension
+
+  # Spotlight Extension
+  SpotlightExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: SpotlightExtension
+    dependencies:
+      - package: IkigaiApi
+        product: IkigaiCore
+    settings:
+      base:
+        ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+        PRODUCT_MODULE_NAME: SpotlightExtension
+        TARGETED_DEVICE_FAMILY: 1,2,6
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator macosx"
+      configs:
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).SpotlightExtension
+        Release:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).SpotlightExtension
+
+  # Widget Extension
+  WidgetExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: WidgetExtension
+    dependencies:
+      - package: IkigaiApi
+        product: IkigaiCore
+    settings:
+      base:
+        ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+        PRODUCT_MODULE_NAME: WidgetExtension
+        TARGETED_DEVICE_FAMILY: 1,2,6
+        SWIFT_EMIT_LOC_STRINGS: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator macosx"
+      configs:
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).WidgetExtension
+        Release:
+          PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).WidgetExtension
+
+  # Watch App
+  WatchApp:
+    type: application
+    platform: watchOS
+    deploymentTarget:
+      watchOS: 26.0
+    sources:
+      - path: WatchApp
+    dependencies:
+      - package: IkigaiApi
+        product: IkigaiCore
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME).watchkitapp
+      TARGETED_DEVICE_FAMILY: 4
+      SWIFT_EMIT_LOC_STRINGS: YES
+      WATCHOS_DEPLOYMENT_TARGET: 26.0
+
+  # Test Target
+  IkigaiTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget:
+      iOS: 26.0
+    sources:
+      - path: IKigaiTests
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).$(BUNDLE_NAME)Tests
+      TARGETED_DEVICE_FAMILY: 1,2,7
+      SWIFT_EMIT_LOC_STRINGS: NO
+
+schemes:
+  IkigaiApp:
+    build:
+      targets:
+        IkigaiApp: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - IkigaiTests
+    archive:
+      config: Release

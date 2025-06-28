@@ -1,0 +1,18 @@
+/* Lokalisierte Versionen der Info.plist-Schlüssel */
+
+CFBundleDisplayName = "Ihre App";
+CFBundleName = "Ihre App";
+NSMicrophoneUsageDescription = "Diese App benötigt Mikrofon-Zugriff für Sprachfunktionen";
+NSSpeechRecognitionUsageDescription = "Diese App verwendet Spracherkennung, um Sprache in Text umzuwandeln";
+NSCameraUsageDescription = "Diese App verwendet die Kamera, um Fotos aufzunehmen";
+NSPhotoLibraryUsageDescription = "Diese App greift auf Ihre Fotobibliothek zu, um Bilder auszuwählen";
+NSLocationWhenInUseUsageDescription = "Diese App verwendet den Standort, um standortbasierte Funktionen bereitzustellen";
+NSContactsUsageDescription = "Diese App greift auf Ihre Kontakte zu, um Ihnen beim Verbinden mit Freunden zu helfen";
+NSCalendarsUsageDescription = "Diese App greift auf Ihren Kalender zu, um Termine zu planen";
+NSRemindersUsageDescription = "Diese App greift auf Ihre Erinnerungen zu, um bei der Aufgabenverwaltung zu helfen";
+NSHealthShareUsageDescription = "Diese App greift auf Gesundheitsdaten zu, um Ihr Wohlbefinden zu verfolgen";
+NSHealthUpdateUsageDescription = "Diese App aktualisiert Gesundheitsdaten, um Ihr Wohlbefinden zu verfolgen";
+NSMotionUsageDescription = "Diese App verwendet Bewegungsdaten, um Ihre Aktivität zu verfolgen";
+NSFaceIDUsageDescription = "Diese App verwendet Face ID für sichere Authentifizierung";
+NSBluetoothAlwaysUsageDescription = "Diese App verwendet Bluetooth, um sich mit Geräten in der Nähe zu verbinden";
+NSLocalNetworkUsageDescription = "Diese App verwendet das lokale Netzwerk, um sich mit Geräten in Ihrem Netzwerk zu verbinden";

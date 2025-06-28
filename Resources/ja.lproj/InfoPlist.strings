@@ -1,0 +1,18 @@
+/* Info.plistキーのローカライズ版 */
+
+CFBundleDisplayName = "あなたのアプリ";
+CFBundleName = "あなたのアプリ";
+NSMicrophoneUsageDescription = "このアプリは音声機能のためにマイクへのアクセスが必要です";
+NSSpeechRecognitionUsageDescription = "このアプリは音声をテキストに変換するために音声認識を使用します";
+NSCameraUsageDescription = "このアプリは写真を撮るためにカメラを使用します";
+NSPhotoLibraryUsageDescription = "このアプリは画像を選択するためにフォトライブラリにアクセスします";
+NSLocationWhenInUseUsageDescription = "このアプリは位置情報ベースの機能を提供するために位置情報を使用します";
+NSContactsUsageDescription = "このアプリは友達との接続をサポートするために連絡先にアクセスします";
+NSCalendarsUsageDescription = "このアプリはイベントをスケジュールするためにカレンダーにアクセスします";
+NSRemindersUsageDescription = "このアプリはタスク管理をサポートするためにリマインダーにアクセスします";
+NSHealthShareUsageDescription = "このアプリはあなたの健康を追跡するためにヘルスデータにアクセスします";
+NSHealthUpdateUsageDescription = "このアプリはあなたの健康を追跡するためにヘルスデータを更新します";
+NSMotionUsageDescription = "このアプリはあなたの活動を追跡するためにモーションデータを使用します";
+NSFaceIDUsageDescription = "このアプリは安全な認証のためにFace IDを使用します";
+NSBluetoothAlwaysUsageDescription = "このアプリは近くのデバイスと接続するためにBluetoothを使用します";
+NSLocalNetworkUsageDescription = "このアプリはネットワーク上のデバイスと接続するためにローカルネットワークを使用します";

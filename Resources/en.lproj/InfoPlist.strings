@@ -1,0 +1,18 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Your App Name";
+CFBundleName = "Your App Name";
+NSMicrophoneUsageDescription = "This app requires microphone access for voice features";
+NSSpeechRecognitionUsageDescription = "This app uses speech recognition to convert speech to text";
+NSCameraUsageDescription = "This app uses the camera to take photos";
+NSPhotoLibraryUsageDescription = "This app accesses your photo library to select images";
+NSLocationWhenInUseUsageDescription = "This app uses location to provide location-based features";
+NSContactsUsageDescription = "This app accesses your contacts to help you connect with friends";
+NSCalendarsUsageDescription = "This app accesses your calendar to schedule events";
+NSRemindersUsageDescription = "This app accesses your reminders to help manage tasks";
+NSHealthShareUsageDescription = "This app accesses health data to track your wellness";
+NSHealthUpdateUsageDescription = "This app updates health data to track your wellness";
+NSMotionUsageDescription = "This app uses motion data to track your activity";
+NSFaceIDUsageDescription = "This app uses Face ID for secure authentication";
+NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to connect with nearby devices";
+NSLocalNetworkUsageDescription = "This app uses local network to connect with devices on your network";

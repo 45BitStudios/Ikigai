@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv:*)",
+      "WebFetch(domain:docs.swift.org)",
+      "Bash(git init:*)",
+      "Bash(mkdir:*)",
+      "Bash(rm:*)",
+      "Bash(xcodegen generate:*)",
+      "Bash(ls:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(find:*)",
+      "Bash(timeout 10s xcodebuild:*)",
+      "Bash(grep:*)",
+      "Bash(swift:*)",
+      "Bash(cp:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(xcode-select:*)",
+      "Bash(timeout:*)",
+      "Bash(xcodegen:*)",
+      "WebFetch(domain:developer.apple.com)",
+      "Bash(afplay:*)",
+      "WebFetch(domain:stackoverflow.com)",
+      "Bash(rg:*)",
+      "Bash(true)",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(chmod:*)",
+      "Bash(./validate-platforms.sh:*)"
+    ],
+    "deny": []
+  }
+}
