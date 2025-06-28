@@ -1,0 +1,158 @@
+# SwiftFormat Configuration for Ikigai
+# https://github.com/nicklockwood/SwiftFormat
+
+# Swift version for compatibility
+--swiftversion 6.2
+
+# File options
+--exclude .build,DerivedData,.swiftpm,Packages
+
+# Indentation options
+--indent 4
+--tabwidth 4
+--indentcase false
+--indentstrings false
+
+# Spacing options
+--trimwhitespace always
+--commas always
+--semicolons never
+--ranges spaced
+
+# Wrapping options
+--maxwidth 120
+--wraparguments beforefirst
+--wrapparameters beforefirst
+--wrapcollections beforefirst
+--wrapconditions preserve
+--wrapreturntype preserve
+--closingparen same-line
+--wrapternary default
+
+# Placement options
+--elseposition same-line
+--guardelse auto
+--ifdef no-indent
+
+# Organization options
+--importgrouping alphabetized
+--categorymark "MARK: %c"
+--markcategories true
+--markextensions always
+--extensionacl on-extension
+--patternlet inline
+
+# Other formatting options
+--self remove
+--selfrequired 
+--stripunusedargs closure-only
+--redundanttype inferred
+--redundantbackticks false
+--redundantparens false
+--redundantget true
+--redundantinit false
+--redundantlet false
+--redundantletinit false
+--redundantobjc true
+--redundantfileprivate true
+--redundantinternal false
+--typeblanklines remove
+--funcattributes preserve
+--varattributes preserve
+--typeattributes preserve
+--modifierorder 
+--shortoptionals always
+--emptyvoidreturn remove
+--linebreaks lf
+--octalgrouping none
+--binarygrouping none
+--decimalgrouping none
+--hexgrouping none
+--fractiongrouping disabled
+--exponentgrouping disabled
+--hexliteralcase lowercase
+--exponentcase lowercase
+--acronyms 
+--operatorfunc spaced
+--nospaceoperators 
+--ranges spaced
+--linebreakafteropeningbrace false
+--linebreakbeforeclosingbrace false
+
+# Enable specific rules
+--enable isEmpty
+--enable sortImports
+--enable duplicateImports
+--enable unusedArguments
+--enable blankLinesAtStartOfScope
+--enable blankLinesAtEndOfScope
+--enable blankLinesBetweenScopes
+--enable consecutiveBlankLines
+--enable consecutiveSpaces
+--enable duplicateImports
+--enable elseOnSameLine
+--enable emptyBraces
+--enable hoistPatternLet
+--enable indent
+--enable leadingDelimiters
+--enable numberFormatting
+--enable organizeDeclarations
+--enable preferKeyPath
+--enable redundantBackticks
+--enable redundantBreak
+--enable redundantClosure
+--enable redundantExtensionACL
+--enable redundantFileprivate
+--enable redundantGet
+--enable redundantInit
+--enable redundantLet
+--enable redundantLetInInit
+--enable redundantNilInit
+--enable redundantObjc
+--enable redundantParens
+--enable redundantPattern
+--enable redundantRawValues
+--enable redundantReturn
+--enable redundantSelf
+--enable redundantType
+--enable redundantVoidReturnType
+--enable semicolons
+--enable sortedImports
+--enable spaceAroundBraces
+--enable spaceAroundBrackets
+--enable spaceAroundComments
+--enable spaceAroundGenerics
+--enable spaceAroundOperators
+--enable spaceAroundParens
+--enable spaceInsideBraces
+--enable spaceInsideBrackets
+--enable spaceInsideComments
+--enable spaceInsideGenerics
+--enable spaceInsideParens
+--enable specifiers
+--enable strongOutlets
+--enable todos
+--enable trailingClosures
+--enable trailingCommas
+--enable trailingSpace
+--enable typeSugar
+--enable unusedArguments
+--enable void
+--enable wrap
+--enable wrapArguments
+--enable wrapMultilineStatementBraces
+--enable yodaConditions
+
+# Disable specific rules that conflict with team preferences
+--disable andOperator
+--disable assertionFailures
+--disable blockComments
+--disable docComments
+--disable initCoderUnavailable
+--disable markTypes
+--disable opaqueGenericParameters
+--disable propertyTypes
+--disable sortedSwitchCases
+--disable strongifiedSelf
+--disable unownedSelf
+--disable wrapSwitchCases
