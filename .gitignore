@@ -2,34 +2,6 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-## User settings
-xcuserdata/
-
-## Compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
-*.xcscmblueprint
-*.xccheckout
-
-## Compatibility with Xcode 9 (ignoring not required starting Xcode 10)
-*.xcuserstate
-
-## Xcode Patch
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/project.xcworkspace/
-*.xcodeproj/project.xcworkspace/*
-!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-!*.xcodeproj/project.xcworkspace/xcshareddata/
-
-## Generated Xcode Project (XcodeGen)
-*.xcodeproj/
-*.xcworkspace/
-
-## Xcode Workspace
-*.xcworkspace/*
-!*.xcworkspace/contents.xcworkspacedata
-!*.xcworkspace/xcshareddata/
-
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
@@ -72,46 +44,10 @@ DerivedData/
 .build/
 dist/
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
 
-Carthage/Build/
 
-# Accio dependency management
-Dependencies/
-.accio/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
-
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
-
-# Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
-
-iOSInjectionProject/
 
 # macOS
 .DS_Store
@@ -219,30 +155,3 @@ firebase-debug.log
 # Analytics and crash reporting
 crashlytics-build.properties
 com_crashlytics_export_strings.xml
-
-# App-specific ignores for template
-YourProjectName.xcodeproj/
-YourProjectName.xcworkspace/
-
-# Config files that should be customized per project
-Configs/*.xcconfig
-!Configs/Debug.xcconfig.template
-!Configs/Release.xcconfig.template
-
-# Entitlements that should be customized
-Sources/App/App.entitlements
-Sources/WidgetExtension/WidgetExtension.entitlements
-Sources/WatchApp/WatchApp.entitlements
-Sources/WatchExtension/WatchExtension.entitlements
-
-# Info.plist files that should be customized
-Sources/App/Info.plist
-Sources/AppClips/Info.plist
-Sources/ActionExtension/Info.plist
-Sources/ShareExtension/Info.plist
-Sources/NotificationExtension/Info.plist
-Sources/MessageExtension/Info.plist
-Sources/SpotlightExtension/Info.plist
-Sources/WidgetExtension/Info.plist
-Sources/WatchApp/Info.plist
-Sources/WatchExtension/Info.plist

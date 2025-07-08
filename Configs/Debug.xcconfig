@@ -1,0 +1,35 @@
+// Debug Configuration
+// Swift compilation mode
+SWIFT_COMPILATION_MODE = singlefile
+
+// Optimization level
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+GCC_OPTIMIZATION_LEVEL = 0
+
+// Debug information format
+DEBUG_INFORMATION_FORMAT = dwarf
+ENABLE_TESTABILITY = YES
+
+
+
+// Preprocessor macros
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) DEBUG=1
+
+// Swift flags
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) DEBUG
+
+// Enable debugging features
+ENABLE_NS_ASSERTIONS = YES
+ENABLE_STRICT_OBJC_MSGSEND = YES
+
+// Metal debugging
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE
+
+// Validation
+VALIDATE_PRODUCT = NO
+
+// Swift concurrency checking
+SWIFT_STRICT_CONCURRENCY = complete
+
+// Other Swift flags
+OTHER_SWIFT_FLAGS = $(inherited) -Xfrontend -warn-concurrency -Xfrontend -enable-actor-data-race-checks

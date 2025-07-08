@@ -1,56 +1,28 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "hello_world" : {
+    "about" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hello, World!"
+            "value" : "About"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "¡Hola, Mundo!"
+            "value" : "Acerca de"
           }
         }
       }
     },
-    "welcome_message" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Welcome to the app"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bienvenido a la aplicación"
-          }
-        }
-      }
+    "Active Activity IDs:" : {
+
     },
-    "settings" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Settings"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Configuración"
-          }
-        }
-      }
+    "Activity Name" : {
+
     },
     "cancel" : {
       "extractionState" : "manual",
@@ -69,39 +41,8 @@
         }
       }
     },
-    "ok" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aceptar"
-          }
-        }
-      }
-    },
-    "save" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Guardar"
-          }
-        }
-      }
+    "Current Activity ID: %@" : {
+
     },
     "delete" : {
       "extractionState" : "manual",
@@ -120,6 +61,9 @@
         }
       }
     },
+    "Emoji" : {
+
+    },
     "error_title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -137,19 +81,28 @@
         }
       }
     },
-    "loading" : {
+    "Get Push Token" : {
+
+    },
+    "Get Start Token" : {
+
+    },
+    "Hello" : {
+
+    },
+    "hello_world" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Loading..."
+            "value" : "Hello, World!"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cargando..."
+            "value" : "¡Hola, Mundo!"
           }
         }
       }
@@ -171,53 +124,22 @@
         }
       }
     },
-    "profile" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Profile"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Perfil"
-          }
-        }
-      }
+    "Live Activities Test" : {
+
     },
-    "about" : {
+    "loading" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About"
+            "value" : "Loading..."
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Acerca de"
-          }
-        }
-      }
-    },
-    "search" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Search"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Buscar"
+            "value" : "Cargando..."
           }
         }
       }
@@ -239,6 +161,23 @@
         }
       }
     },
+    "ok" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aceptar"
+          }
+        }
+      }
+    },
     "privacy" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -252,6 +191,106 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Privacidad"
+          }
+        }
+      }
+    },
+    "profile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perfil"
+          }
+        }
+      }
+    },
+    "Push Token: %@" : {
+
+    },
+    "save" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar"
+          }
+        }
+      }
+    },
+    "search" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar"
+          }
+        }
+      }
+    },
+    "settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración"
+          }
+        }
+      }
+    },
+    "Start Activity" : {
+
+    },
+    "Stop Activity" : {
+
+    },
+    "Stop All Activities" : {
+
+    },
+    "Update Activity" : {
+
+    },
+    "welcome_message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to the app"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenido a la aplicación"
           }
         }
       }

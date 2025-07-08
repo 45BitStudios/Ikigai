@@ -1,9 +1,0 @@
-name: YourProjectNameWorkspace
-
-projects:
-  - ./YourProjectName.xcodeproj
-  - ./Package.swift
-
-settings:
-  SWIFT_VERSION: 6.2
-  DEVELOPMENT_TEAM: SP7UUHBXPL

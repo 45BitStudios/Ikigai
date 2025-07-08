@@ -11,9 +11,9 @@ struct WatchContentView: View {
                 Image(systemName: "applewatch")
                     .font(.system(size: 28))
                     .foregroundStyle(.blue)
-                    .accessibilityLabel(localized: "apple_watch_icon")
+                    .accessibilityLabel("apple_watch_icon")
                 
-                Text(localized: "watch_app_title")
+                Text("watch_app_title")
                     .font(.headline)
                     .fontWeight(.semibold)
                 
@@ -30,7 +30,7 @@ struct WatchContentView: View {
                             .font(.title2)
                             .foregroundStyle(.red)
                     }
-                    .accessibilityLabel(localized: "decrease_counter")
+                    .accessibilityLabel("decrease_counter")
                     
                     Button(action: {
                         counter += 1
@@ -39,7 +39,7 @@ struct WatchContentView: View {
                             .font(.title2)
                             .foregroundStyle(.green)
                     }
-                    .accessibilityLabel(localized: "increase_counter")
+                    .accessibilityLabel("increase_counter")
                 }
                 .buttonStyle(.plain)
                 
@@ -53,7 +53,7 @@ struct WatchContentView: View {
                     HStack(spacing: 6) {
                         Image(systemName: "globe")
                             .font(.caption)
-                        Text(localized: "language_toggle")
+                        Text("language_toggle")
                             .font(.caption)
                     }
                     .padding(.horizontal, 12)
@@ -61,17 +61,17 @@ struct WatchContentView: View {
                     .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 8))
                 }
                 .buttonStyle(.plain)
-                .accessibilityLabel(localized: "switch_language")
+                .accessibilityLabel("switch_language")
                 
                 if counter != 0 {
-                    Text(String.localized("count_label", counter))
+                    Text("Count: \(counter)")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                         .transition(.opacity)
                 }
             }
             .padding()
-            .navigationTitle(localized: "counter_title")
+            .navigationTitle("counter_title")
             .environment(\.locale, currentLocale)
         }
     }

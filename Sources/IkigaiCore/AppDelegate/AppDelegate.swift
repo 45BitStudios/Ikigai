@@ -103,8 +103,8 @@ where Shortcut: ShortcutProvider,
     }
     
     @objc private func handleShortcutNotification(_ notification: Notification) {
-        guard let item = notification.object as? UIApplicationShortcutItem else { return }
         #if os(iOS)
+        guard let item = notification.object as? UIApplicationShortcutItem else { return }
         selectedShortcut = Shortcut.from(shortcutItem: item)
         #endif
     }
@@ -277,10 +277,12 @@ extension View {
         perform action: @escaping (Shortcut) -> Void
     ) -> some View {
         self.onReceive(NotificationCenter.default.publisher(for: .didReceiveShortcut)) { notification in
+            #if os(iOS)
             if let shortcutItem = notification.object as? UIApplicationShortcutItem,
                let event = Shortcut.from(shortcutItem: shortcutItem) {
                 action(event)
             }
+            #endif
         }
     }
     

@@ -30,7 +30,8 @@
       "Bash(source:*)",
       "Bash(pip install:*)",
       "Bash(chmod:*)",
-      "Bash(./validate-platforms.sh:*)"
+      "Bash(./validate-platforms.sh:*)",
+      "Bash(git remote add:*)"
     ],
     "deny": []
   }

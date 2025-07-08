@@ -6,7 +6,10 @@
 //
 
 import Foundation
+
+#if canImport(MapKit) && canImport(UIKit) && !os(watchOS)
 import MapKit
+import UIKit
 
 public struct MapHelpers {
     public static func generateSnapshot(for coordinate: CLLocationCoordinate2D, size: CGSize = CGSize(width: 100, height: 75)) async -> UIImage? {
@@ -38,3 +41,4 @@ public struct MapHelpers {
         }
     }
 }
+#endif

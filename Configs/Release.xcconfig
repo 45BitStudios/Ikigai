@@ -1,0 +1,46 @@
+// Release Configuration
+// Swift compilation mode
+SWIFT_COMPILATION_MODE = wholemodule
+
+// Optimization level
+SWIFT_OPTIMIZATION_LEVEL = -O
+GCC_OPTIMIZATION_LEVEL = s
+
+// Debug information format
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+ENABLE_TESTABILITY = NO
+
+
+
+// Preprocessor macros
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) NDEBUG=1
+
+// Swift flags
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) RELEASE
+
+// Disable debugging features
+ENABLE_NS_ASSERTIONS = NO
+ENABLE_STRICT_OBJC_MSGSEND = YES
+
+// Metal optimization
+MTL_ENABLE_DEBUG_INFO = NO
+
+// Validation
+VALIDATE_PRODUCT = YES
+
+// Swift concurrency checking
+SWIFT_STRICT_CONCURRENCY = complete
+
+// Deployment postprocessing
+DEPLOYMENT_POSTPROCESSING = YES
+STRIP_INSTALLED_PRODUCT = YES
+STRIP_STYLE = debugging
+
+// Dead code stripping
+DEAD_CODE_STRIPPING = YES
+
+// Copy files build phase strip
+COPY_PHASE_STRIP = NO
+
+// Symbols
+GENERATE_INFOPLIST_FILE = NO
