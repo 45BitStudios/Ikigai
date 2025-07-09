@@ -30,9 +30,7 @@
 		5734FCD869632F6EE2A34D6E /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C4CC6EE3B0E220C440550D /* WatchApp.swift */; };
 		586438FBCD8A7E2ED3BE0F6E /* JsonPlaceholderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAD1AA96123920C58031FCB /* JsonPlaceholderService.swift */; };
 		5BCCE6D92B4A1E386FB525A2 /* icon.json in Resources */ = {isa = PBXBuildFile; fileRef = A91D546942FF8ADC57B86780 /* icon.json */; };
-		614E41682E1E227600D1F2B8 /* ikigai-main.icon in Resources */ = {isa = PBXBuildFile; fileRef = 614E41672E1E227600D1F2B8 /* ikigai-main.icon */; };
-		614E41692E1E227600D1F2B8 /* ikigai-main.icon in Resources */ = {isa = PBXBuildFile; fileRef = 614E41672E1E227600D1F2B8 /* ikigai-main.icon */; };
-		614E416A2E1E227600D1F2B8 /* ikigai-main.icon in Resources */ = {isa = PBXBuildFile; fileRef = 614E41672E1E227600D1F2B8 /* ikigai-main.icon */; };
+		61BF2F4F2E1E30700077798A /* ikigai-main.icon in Resources */ = {isa = PBXBuildFile; fileRef = 61BF2F4E2E1E30700077798A /* ikigai-main.icon */; };
 		6FC0D406C57E7725DD5ACFCF /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = BB16376D612B079A522301F6 /* circle.png */; };
 		7376D8620C7D6E759519A0AE /* NotificationHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A8295396E96DF75CF207BF /* NotificationHostingController.swift */; };
 		7DEC1841678B38AD214CADD8 /* ActionHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6657C5A9DE089E1F6E6BAF1 /* ActionHostingController.swift */; };
@@ -163,7 +161,7 @@
 		575DC06F8D72EF5DA5F482EF /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		606B74BEC51DBB3082C0208E /* WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetExtension.entitlements; sourceTree = "<group>"; };
 		60B19E717AA46666C41E26D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		614E41672E1E227600D1F2B8 /* ikigai-main.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "ikigai-main.icon"; sourceTree = "<group>"; };
+		61BF2F4E2E1E30700077798A /* ikigai-main.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "ikigai-main.icon"; sourceTree = "<group>"; };
 		640DB6759253904513B27F76 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
 		64F34856BA31DB0CBB9958EA /* ShareExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		657A4F6CE920750E25EF8BE4 /* ShareExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtensionView.swift; sourceTree = "<group>"; };
@@ -321,7 +319,7 @@
 		2B138996D50737FF64B38411 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				614E41672E1E227600D1F2B8 /* ikigai-main.icon */,
+				61BF2F4E2E1E30700077798A /* ikigai-main.icon */,
 				748D0854A61C6412EC2BD506 /* Assets.xcassets */,
 				85CEB6F34A8D343F67A85A61 /* InfoPlist.strings */,
 				6AEF442F26EB3EF445D88A42 /* Localizable.xcstrings */,
@@ -768,7 +766,7 @@
 				CD835EA588D7850BBD04D9FA /* Preview Assets.xcassets in Resources */,
 				6FC0D406C57E7725DD5ACFCF /* circle.png in Resources */,
 				5BCCE6D92B4A1E386FB525A2 /* icon.json in Resources */,
-				614E41692E1E227600D1F2B8 /* ikigai-main.icon in Resources */,
+				61BF2F4F2E1E30700077798A /* ikigai-main.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,7 +777,6 @@
 				A1A941B3A7598EA82DE8C5EF /* Assets.xcassets in Resources */,
 				A31452FE31D805AB5FF616E4 /* InfoPlist.strings in Resources */,
 				8D7C6171FCC670E389808EA4 /* Localizable.xcstrings in Resources */,
-				614E41682E1E227600D1F2B8 /* ikigai-main.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,7 +787,6 @@
 				15FF4BA7C36CB0F80B68BD63 /* Assets.xcassets in Resources */,
 				529E5F8DD3266452430C9CF9 /* InfoPlist.strings in Resources */,
 				EDBC961790994E14F82CFF4F /* Localizable.xcstrings in Resources */,
-				614E416A2E1E227600D1F2B8 /* ikigai-main.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1061,9 +1057,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).$(BUNDLE_NAME)";
 				PRODUCT_NAME = "$(PRODUCT_APP_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx appletvsimulator appletvos xros xrsimulator";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2,3,7";
@@ -1088,9 +1085,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).$(BUNDLE_NAME)";
 				PRODUCT_NAME = "$(PRODUCT_APP_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx appletvsimulator appletvos xros xrsimulator";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2,3,7";
@@ -1189,6 +1187,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = SP7UUHBXPL;
+				DISPLAY_NAME = Ikigai;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1356,6 +1355,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = SP7UUHBXPL;
+				DISPLAY_NAME = Ikigai;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

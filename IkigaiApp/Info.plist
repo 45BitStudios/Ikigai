@@ -5,9 +5,25 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>$(DISPLAY_NAME)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleIconFiles</key>
+		<array/>
+		<key>CFBundlePrimaryIcon</key>
+		<string></string>
+		<key>NSAppIconActionTintColorName</key>
+		<string>ShortcutsForeground</string>
+		<key>NSAppIconComplementingColorNames</key>
+		<array>
+			<string>ShortcutsBackground1</string>
+			<string>ShortcutsBackground2</string>
+		</array>
+		<key>UIPrerenderedIcon</key>
+		<false/>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -20,23 +36,6 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
-	<key>CFBundleIcons</key>
-	<dict>
-		<key>CFBundlePrimaryIcon</key>
-		<dict>
-			<key>CFBundleIconFiles</key>
-			<array/>
-			<key>UIPrerenderedIcon</key>
-			<false/>
-			<key>NSAppIconActionTintColorName</key>
-			<string>ShortcutsForeground</string>
-			<key>NSAppIconComplementingColorNames</key>
-			<array>
-				<string>ShortcutsBackground1</string>
-				<string>ShortcutsBackground2</string>
-			</array>
-		</dict>
-	</dict>
 	<key>NSAppClipRequestEphemeralUserNotification</key>
 	<false/>
 	<key>NSAppClipRequestLocationConfirmation</key>
@@ -66,5 +65,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>properties</key>
+	<string></string>
 </dict>
 </plist>
