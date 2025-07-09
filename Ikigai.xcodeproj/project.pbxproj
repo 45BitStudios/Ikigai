@@ -200,7 +200,6 @@
 		DCBBBA5A991CFE074A72BDCE /* NotificationExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtensionView.swift; sourceTree = "<group>"; };
 		E4C5D6C38948CA1A67FE4406 /* WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBundle.swift; sourceTree = "<group>"; };
 		EA467D15C9E4CCB6281DC65C /* ShareHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareHostingController.swift; sourceTree = "<group>"; };
-		EC9493BA1567331571150684 /* Ikigai */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Ikigai; path = .; sourceTree = SOURCE_ROOT; };
 		F09AF08DDFD20039C805EDD3 /* MessageExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageExtensionView.swift; sourceTree = "<group>"; };
 		F1A5D3AB9AA7712230BFEB50 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
 		F378EA6A6D8232BAAA932A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -340,14 +339,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		45734FEB778A31C8B8E5B322 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				EC9493BA1567331571150684 /* Ikigai */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		4E97B197CCB03BB1DEC63149 /* AppClips */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,7 +369,6 @@
 				BD513F4EE38DBC414FA98AB4 /* MessageExtension */,
 				7FD7268B37F8A248ACE1C62C /* NotificationExtension */,
 				4F7D647B747412A2EFAD9F9F /* NotificationServiceExtension */,
-				45734FEB778A31C8B8E5B322 /* Packages */,
 				2B138996D50737FF64B38411 /* Resources */,
 				ACD77E1713E624D715D384A7 /* ShareExtension */,
 				80D629D42E4CDC85DBAFF9B7 /* SpotlightExtension */,
@@ -768,7 +758,7 @@
 			mainGroup = 607A370E9786D613CA538A9C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				7EDF0922DCB5351459F20AB4 /* XCLocalSwiftPackageReference "." */,
+				80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */,
 			);
 			preferredProjectObjectVersion = 54;
 			projectDirPath = "";
@@ -1656,52 +1646,66 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		7EDF0922DCB5351459F20AB4 /* XCLocalSwiftPackageReference "." */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = .;
+/* Begin XCRemoteSwiftPackageReference section */
+		80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/45BitStudios/Ikigai.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		0C42C017F78BB0728FC9E05D /* IkigaiAI */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiAI;
 		};
 		2C373B3FA84043F22B50D3AC /* IkigaiMacros */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiMacros;
 		};
 		3EA733505ECE76DD0BA9B8C6 /* IkigaiCore */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiCore;
 		};
 		45FC33F86A8C53565E9FE75B /* IkigaiCore */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiCore;
 		};
 		5650FDA7E29D9E1F7DB640C7 /* IkigaiCore */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiCore;
 		};
 		642F10B98C4D4FFA5F82BA20 /* IkigaiCore */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiCore;
 		};
 		B48A299C4CEDD5BB175B21F3 /* IkigaiUI */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiUI;
 		};
 		BFC6D7DBC11AB00F79965AE0 /* IkigaiCore */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiCore;
 		};
 		CCCA10F9B323F6439034302B /* IkigaiCore */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiCore;
 		};
 		E49B55E2C86C8D883D931C42 /* IkigaiCore */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
 			productName = IkigaiCore;
 		};
 /* End XCSwiftPackageProductDependency section */
