@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		24FE201C5B4425701D3D20BF /* MessageExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3785CD93C87761082E959D9E /* MessageExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		26765D02495AF1FA9FB8C929 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640DB6759253904513B27F76 /* Widget.swift */; };
 		27350AD952178337F59C5D9D /* IkigaiClipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74C6D4A937B3C7EFFE13A36 /* IkigaiClipsApp.swift */; };
+		27610A8404F37C69228F581E /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B5C34D77D41F778A8BE910 /* circle.png */; };
 		362090BDF26B9A2B17D50D2F /* SpotlightHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA1AAAC9B3D6C7EA0B96D /* SpotlightHostingController.swift */; };
 		3775982EE9B74A4ACB982D5D /* IkigaiCore in Frameworks */ = {isa = PBXBuildFile; productRef = BFC6D7DBC11AB00F79965AE0 /* IkigaiCore */; };
 		37CDF81044CA57C8538A6AA2 /* IkigaiAI in Frameworks */ = {isa = PBXBuildFile; productRef = 0C42C017F78BB0728FC9E05D /* IkigaiAI */; };
@@ -34,6 +35,7 @@
 		7376D8620C7D6E759519A0AE /* NotificationHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A8295396E96DF75CF207BF /* NotificationHostingController.swift */; };
 		7DEC1841678B38AD214CADD8 /* ActionHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6657C5A9DE089E1F6E6BAF1 /* ActionHostingController.swift */; };
 		7F176307B77D2F45314D3527 /* NotificationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 37E13F023D130C648A724FF3 /* NotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8065C06DEFDA6035744B55B0 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B5C34D77D41F778A8BE910 /* circle.png */; };
 		88D5560149E9EC691DB26E6E /* IkigaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E2B9A7F941D96A0DADE3D0 /* IkigaiApp.swift */; };
 		89E5C5903EBEFCBA669D65BC /* ikigaiWidgetsAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30532BCE27B9550B2B2479BC /* ikigaiWidgetsAttributes.swift */; };
 		8C0EC8A0E292531963E8206A /* IkigaiCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3EA733505ECE76DD0BA9B8C6 /* IkigaiCore */; };
@@ -42,12 +44,14 @@
 		9DB628B8F750E465A5A029D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B607A12EEB9F986CF5871 /* ContentView.swift */; };
 		9F7204122C94DDC3414D31A6 /* NotificationExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBA5A991CFE074A72BDCE /* NotificationExtensionView.swift */; };
 		A1A941B3A7598EA82DE8C5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748D0854A61C6412EC2BD506 /* Assets.xcassets */; };
+		A1CFB9EA3694C69167BE1B64 /* icon.json in Resources */ = {isa = PBXBuildFile; fileRef = BDEC599DAB16C44020085402 /* icon.json */; };
 		A31452FE31D805AB5FF616E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85CEB6F34A8D343F67A85A61 /* InfoPlist.strings */; };
 		A4E80C840321D8DF26F3C404 /* MessageHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2282C73E7E753EE2B5D061 /* MessageHostingController.swift */; };
 		AC876D84B91F8E9B9F3CA0F7 /* SpotlightExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC1114951BE7630E7D3B5C /* SpotlightExtensionView.swift */; };
 		ACCEF0A242C22805B28F59CE /* WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 14AC237E8A971845B9CE2AA2 /* WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		ADEF7062061ECB2895B29B03 /* ShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 64F34856BA31DB0CBB9958EA /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B5DED68FD1F74C034C5CE6A3 /* ShareExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657A4F6CE920750E25EF8BE4 /* ShareExtensionView.swift */; };
+		B7FF5ACA8DB5A26A4B9C8B52 /* icon.json in Resources */ = {isa = PBXBuildFile; fileRef = BDEC599DAB16C44020085402 /* icon.json */; };
 		C9EFBEB9117A2CE9443F3BB7 /* IkigaiClipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1E743C33262D00AAB1932 /* IkigaiClipsContentView.swift */; };
 		CA46F5A78D83F2556338E0AE /* ShareHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA467D15C9E4CCB6281DC65C /* ShareHostingController.swift */; };
 		CD835EA588D7850BBD04D9FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F7E524D81E4C59BB4F66E7 /* Preview Assets.xcassets */; };
@@ -141,6 +145,7 @@
 		0E2282C73E7E753EE2B5D061 /* MessageHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHostingController.swift; sourceTree = "<group>"; };
 		1221597A4F64B2F708D4D5C9 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		14AC237E8A971845B9CE2AA2 /* WidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B5C34D77D41F778A8BE910 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 		186FCDE9B4AD1B0722771C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1DAC1114951BE7630E7D3B5C /* SpotlightExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightExtensionView.swift; sourceTree = "<group>"; };
 		21691AAFAA65868E547AADD1 /* InteractiveWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveWidgetView.swift; sourceTree = "<group>"; };
@@ -184,6 +189,7 @@
 		B668257EE2136EE852E30C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BB16376D612B079A522301F6 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 		BD0F8AE5D05108101968B901 /* SpotlightExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SpotlightExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEC599DAB16C44020085402 /* icon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = icon.json; sourceTree = "<group>"; };
 		CA136151D8436090D516F511 /* IkigaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkigaiTests.swift; sourceTree = "<group>"; };
 		CA41A2E0865188747F11AE8C /* ActionExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ActionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC779C62FFE1EA4920DD4493 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -282,6 +288,14 @@
 			path = "ikigai-main.icon";
 			sourceTree = "<group>";
 		};
+		124B50918281B509A59433D7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				16B5C34D77D41F778A8BE910 /* circle.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		24002DBB534249ABD6EA5815 /* WidgetExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +335,7 @@
 				748D0854A61C6412EC2BD506 /* Assets.xcassets */,
 				85CEB6F34A8D343F67A85A61 /* InfoPlist.strings */,
 				6AEF442F26EB3EF445D88A42 /* Localizable.xcstrings */,
+				60F3C053C86D603AE3176378 /* ikigai-main.icon */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -371,6 +386,15 @@
 				24002DBB534249ABD6EA5815 /* WidgetExtension */,
 				297F4E83F287EB7ACC2F2B59 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		60F3C053C86D603AE3176378 /* ikigai-main.icon */ = {
+			isa = PBXGroup;
+			children = (
+				BDEC599DAB16C44020085402 /* icon.json */,
+				124B50918281B509A59433D7 /* Assets */,
+			);
+			path = "ikigai-main.icon";
 			sourceTree = "<group>";
 		};
 		7FD7268B37F8A248ACE1C62C /* NotificationExtension */ = {
@@ -746,6 +770,7 @@
 			packageReferences = (
 				7EDF0922DCB5351459F20AB4 /* XCLocalSwiftPackageReference "." */,
 			);
+			preferredProjectObjectVersion = 54;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -783,6 +808,8 @@
 				A1A941B3A7598EA82DE8C5EF /* Assets.xcassets in Resources */,
 				A31452FE31D805AB5FF616E4 /* InfoPlist.strings in Resources */,
 				8D7C6171FCC670E389808EA4 /* Localizable.xcstrings in Resources */,
+				27610A8404F37C69228F581E /* circle.png in Resources */,
+				B7FF5ACA8DB5A26A4B9C8B52 /* icon.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,6 +820,8 @@
 				15FF4BA7C36CB0F80B68BD63 /* Assets.xcassets in Resources */,
 				529E5F8DD3266452430C9CF9 /* InfoPlist.strings in Resources */,
 				EDBC961790994E14F82CFF4F /* Localizable.xcstrings in Resources */,
+				8065C06DEFDA6035744B55B0 /* circle.png in Resources */,
+				A1CFB9EA3694C69167BE1B64 /* icon.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1050,7 +1079,7 @@
 			buildSettings = {
 				"ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES[sdk=iphoneos*]" = "$(inherited)";
 				"ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES[sdk=iphonesimulator*]" = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(ASSETCATALOG_COMPILER_APPICON_NAME)";
 				CODE_SIGN_ENTITLEMENTS = IkigaiApp/IkigaiApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
@@ -1074,7 +1103,7 @@
 			buildSettings = {
 				"ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES[sdk=iphoneos*]" = "$(inherited)";
 				"ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES[sdk=iphonesimulator*]" = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(ASSETCATALOG_COMPILER_APPICON_NAME)";
 				CODE_SIGN_ENTITLEMENTS = IkigaiApp/IkigaiApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
