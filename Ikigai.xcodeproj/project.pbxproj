@@ -10,16 +10,12 @@
 		01649C310DF1C8AF194B3562 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221597A4F64B2F708D4D5C9 /* NotificationService.swift */; };
 		045313EF3EB56AE6308BCFC2 /* IkigaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA136151D8436090D516F511 /* IkigaiTests.swift */; };
 		0F6CBBFD22A06CAB2E4E7C92 /* InteractiveWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21691AAFAA65868E547AADD1 /* InteractiveWidgetView.swift */; };
-		11F09839D285D6A047F61FEC /* IkigaiCore in Frameworks */ = {isa = PBXBuildFile; productRef = 45FC33F86A8C53565E9FE75B /* IkigaiCore */; };
 		130FA215D950EFF4CD3909E1 /* MessageExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09AF08DDFD20039C805EDD3 /* MessageExtensionView.swift */; };
-		14DBDFF5711A4DB8C2E2F093 /* IkigaiCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5650FDA7E29D9E1F7DB640C7 /* IkigaiCore */; };
 		15FF4BA7C36CB0F80B68BD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748D0854A61C6412EC2BD506 /* Assets.xcassets */; };
 		24FE201C5B4425701D3D20BF /* MessageExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3785CD93C87761082E959D9E /* MessageExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		26765D02495AF1FA9FB8C929 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640DB6759253904513B27F76 /* Widget.swift */; };
 		27350AD952178337F59C5D9D /* IkigaiClipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74C6D4A937B3C7EFFE13A36 /* IkigaiClipsApp.swift */; };
 		362090BDF26B9A2B17D50D2F /* SpotlightHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724EA1AAAC9B3D6C7EA0B96D /* SpotlightHostingController.swift */; };
-		3775982EE9B74A4ACB982D5D /* IkigaiCore in Frameworks */ = {isa = PBXBuildFile; productRef = BFC6D7DBC11AB00F79965AE0 /* IkigaiCore */; };
-		37CDF81044CA57C8538A6AA2 /* IkigaiAI in Frameworks */ = {isa = PBXBuildFile; productRef = 0C42C017F78BB0728FC9E05D /* IkigaiAI */; };
 		3BA4EADA349D2339C0914C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B19E717AA46666C41E26D3 /* Assets.xcassets */; };
 		3BA8AD5D99F17F6735D93962 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A5D3AB9AA7712230BFEB50 /* WidgetView.swift */; };
 		422A6DEAD0AFA0F02D50E49C /* WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C5D6C38948CA1A67FE4406 /* WidgetBundle.swift */; };
@@ -37,9 +33,7 @@
 		7F176307B77D2F45314D3527 /* NotificationExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 37E13F023D130C648A724FF3 /* NotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		88D5560149E9EC691DB26E6E /* IkigaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E2B9A7F941D96A0DADE3D0 /* IkigaiApp.swift */; };
 		89E5C5903EBEFCBA669D65BC /* ikigaiWidgetsAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30532BCE27B9550B2B2479BC /* ikigaiWidgetsAttributes.swift */; };
-		8C0EC8A0E292531963E8206A /* IkigaiCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3EA733505ECE76DD0BA9B8C6 /* IkigaiCore */; };
 		8D7C6171FCC670E389808EA4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6AEF442F26EB3EF445D88A42 /* Localizable.xcstrings */; };
-		92892A606529715E5663B3DF /* IkigaiMacros in Frameworks */ = {isa = PBXBuildFile; productRef = 2C373B3FA84043F22B50D3AC /* IkigaiMacros */; };
 		9DB628B8F750E465A5A029D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B607A12EEB9F986CF5871 /* ContentView.swift */; };
 		9F7204122C94DDC3414D31A6 /* NotificationExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBBA5A991CFE074A72BDCE /* NotificationExtensionView.swift */; };
 		A1A941B3A7598EA82DE8C5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748D0854A61C6412EC2BD506 /* Assets.xcassets */; };
@@ -53,11 +47,7 @@
 		CA46F5A78D83F2556338E0AE /* ShareHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA467D15C9E4CCB6281DC65C /* ShareHostingController.swift */; };
 		CD835EA588D7850BBD04D9FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F7E524D81E4C59BB4F66E7 /* Preview Assets.xcassets */; };
 		D1AB8C5BC6B4AEBFAF6AA33C /* AccessoryWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826630A21D731073031A21E3 /* AccessoryWidgetView.swift */; };
-		D7D0990617A4B81DA2FBE2C1 /* IkigaiCore in Frameworks */ = {isa = PBXBuildFile; productRef = 642F10B98C4D4FFA5F82BA20 /* IkigaiCore */; };
 		DF5CC8E417665D9410F074DB /* LiveActivitiesTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB825834C0EEF2B46F2F7822 /* LiveActivitiesTestView.swift */; };
-		E10693D9E96725ABF9FE3C0B /* IkigaiCore in Frameworks */ = {isa = PBXBuildFile; productRef = CCCA10F9B323F6439034302B /* IkigaiCore */; };
-		E4530BDA19597F35E8A410F6 /* IkigaiUI in Frameworks */ = {isa = PBXBuildFile; productRef = B48A299C4CEDD5BB175B21F3 /* IkigaiUI */; };
-		E50601DEC79014C9E7EEDC3A /* IkigaiCore in Frameworks */ = {isa = PBXBuildFile; productRef = E49B55E2C86C8D883D931C42 /* IkigaiCore */; };
 		E56A4D108811D117093C038F /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA60CB177FA84CBF390EAA6 /* WatchContentView.swift */; };
 		EDBC961790994E14F82CFF4F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6AEF442F26EB3EF445D88A42 /* Localizable.xcstrings */; };
 		EE86167B940DC09F711565F5 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC779C62FFE1EA4920DD4493 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -208,7 +198,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3775982EE9B74A4ACB982D5D /* IkigaiCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +205,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10693D9E96725ABF9FE3C0B /* IkigaiCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +212,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D0990617A4B81DA2FBE2C1 /* IkigaiCore in Frameworks */,
-				E4530BDA19597F35E8A410F6 /* IkigaiUI in Frameworks */,
-				37CDF81044CA57C8538A6AA2 /* IkigaiAI in Frameworks */,
-				92892A606529715E5663B3DF /* IkigaiMacros in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +219,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DBDFF5711A4DB8C2E2F093 /* IkigaiCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +226,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F09839D285D6A047F61FEC /* IkigaiCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +233,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C0EC8A0E292531963E8206A /* IkigaiCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +240,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E50601DEC79014C9E7EEDC3A /* IkigaiCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,10 +465,6 @@
 			);
 			name = IkigaiApp;
 			packageProductDependencies = (
-				642F10B98C4D4FFA5F82BA20 /* IkigaiCore */,
-				B48A299C4CEDD5BB175B21F3 /* IkigaiUI */,
-				0C42C017F78BB0728FC9E05D /* IkigaiAI */,
-				2C373B3FA84043F22B50D3AC /* IkigaiMacros */,
 			);
 			productName = IkigaiApp;
 			productReference = 043257C25065FBBFFD6C2641 /* Ikigai - Demo and Package.app */;
@@ -507,7 +483,6 @@
 			);
 			name = NotificationExtension;
 			packageProductDependencies = (
-				5650FDA7E29D9E1F7DB640C7 /* IkigaiCore */,
 			);
 			productName = NotificationExtension;
 			productReference = 37E13F023D130C648A724FF3 /* NotificationExtension.appex */;
@@ -561,7 +536,6 @@
 			);
 			name = ActionExtension;
 			packageProductDependencies = (
-				45FC33F86A8C53565E9FE75B /* IkigaiCore */,
 			);
 			productName = ActionExtension;
 			productReference = CA41A2E0865188747F11AE8C /* ActionExtension.appex */;
@@ -597,7 +571,6 @@
 			);
 			name = WidgetExtension;
 			packageProductDependencies = (
-				3EA733505ECE76DD0BA9B8C6 /* IkigaiCore */,
 			);
 			productName = WidgetExtension;
 			productReference = 14AC237E8A971845B9CE2AA2 /* WidgetExtension.appex */;
@@ -616,7 +589,6 @@
 			);
 			name = ShareExtension;
 			packageProductDependencies = (
-				E49B55E2C86C8D883D931C42 /* IkigaiCore */,
 			);
 			productName = ShareExtension;
 			productReference = 64F34856BA31DB0CBB9958EA /* ShareExtension.appex */;
@@ -635,7 +607,6 @@
 			);
 			name = SpotlightExtension;
 			packageProductDependencies = (
-				BFC6D7DBC11AB00F79965AE0 /* IkigaiCore */,
 			);
 			productName = SpotlightExtension;
 			productReference = BD0F8AE5D05108101968B901 /* SpotlightExtension.appex */;
@@ -655,7 +626,6 @@
 			);
 			name = WatchApp;
 			packageProductDependencies = (
-				CCCA10F9B323F6439034302B /* IkigaiCore */,
 			);
 			productName = WatchApp;
 			productReference = 575DC06F8D72EF5DA5F482EF /* WatchApp.app */;
@@ -737,7 +707,7 @@
 			mainGroup = 607A370E9786D613CA538A9C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */,
+				61643CC42E1E3F7600DF78F6 /* XCLocalSwiftPackageReference "../Ikigai" */,
 			);
 			projectDirPath = "";
 			projectRoot = "";
@@ -1629,69 +1599,12 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/45BitStudios/Ikigai.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		61643CC42E1E3F7600DF78F6 /* XCLocalSwiftPackageReference "../Ikigai" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Ikigai;
 		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		0C42C017F78BB0728FC9E05D /* IkigaiAI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiAI;
-		};
-		2C373B3FA84043F22B50D3AC /* IkigaiMacros */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiMacros;
-		};
-		3EA733505ECE76DD0BA9B8C6 /* IkigaiCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiCore;
-		};
-		45FC33F86A8C53565E9FE75B /* IkigaiCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiCore;
-		};
-		5650FDA7E29D9E1F7DB640C7 /* IkigaiCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiCore;
-		};
-		642F10B98C4D4FFA5F82BA20 /* IkigaiCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiCore;
-		};
-		B48A299C4CEDD5BB175B21F3 /* IkigaiUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiUI;
-		};
-		BFC6D7DBC11AB00F79965AE0 /* IkigaiCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiCore;
-		};
-		CCCA10F9B323F6439034302B /* IkigaiCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiCore;
-		};
-		E49B55E2C86C8D883D931C42 /* IkigaiCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 80933044D1B25DF888827C10 /* XCRemoteSwiftPackageReference "Ikigai" */;
-			productName = IkigaiCore;
-		};
-/* End XCSwiftPackageProductDependency section */
+/* End XCLocalSwiftPackageReference section */
 	};
 	rootObject = 62033EDF861FCA6A4DF3EBCF /* Project object */;
 }

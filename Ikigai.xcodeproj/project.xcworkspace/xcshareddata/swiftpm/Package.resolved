@@ -1,15 +1,6 @@
 {
-  "originHash" : "f0fe200b778ab9d3c816fff97ec604dce61db1f6baca851fa33a7eae4f01ac88",
+  "originHash" : "349f2e058bf3e59a47733594ad3190e4ee95f3304fee69b94cfc495e9d6d228b",
   "pins" : [
-    {
-      "identity" : "ikigai",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/45BitStudios/Ikigai.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "098cedd132cbf5511339ea267b99e251f1ccb335"
-      }
-    },
     {
       "identity" : "swift-syntax",
       "kind" : "remoteSourceControl",
