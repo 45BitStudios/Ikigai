@@ -16,7 +16,10 @@ echo "Check file on .xcodeproj"
 ls *.xcodeproj
 
 echo "Resolving package dependencies..."
-xcodebuild -resolvePackageDependencies -project project.xcodeproj -scheme IkigaiApp
+xcodebuild -resolvePackageDependencies \
+  -project Ikigai.xcodeproj \
+  -scheme IkigaiApp \
+  -destination 'generic/platform=iOS'
 # Check if Package.resolved was created
 if [ -f "*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved" ]; then
     echo "Package.resolved generated successfully."
