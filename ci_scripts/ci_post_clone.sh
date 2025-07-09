@@ -20,10 +20,4 @@ xcodebuild -resolvePackageDependencies \
   -project Ikigai.xcodeproj \
   -scheme IkigaiApp \
   -destination 'generic/platform=iOS'
-# Check if Package.resolved was created
-if [ -f "*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved" ]; then
-    echo "Package.resolved generated successfully."
-else
-    echo "Failed to generate Package.resolved."
-    exit 1
-fi
+
